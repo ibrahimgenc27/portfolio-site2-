@@ -6,7 +6,7 @@
         "location": "İstanbul, Türkiye",
         "email": "enis.kinay@ogr.sakarya.edu.tr",
         "phone": "+90 555 123 4567",
-        "birthYear": 1995,
+        "birthYear": 2006,
         "education": [
             {
                 "degree": "Bilişim Sistemleri Mühendisliği",
@@ -31,7 +31,7 @@
         "social": {
             "github": "https://github.com/Enis",
             "linkedin": "https://linkedin.com/in/Enis",
-            "twitter": "https://twitter.com/Enis"
+            "twitter": "https://x.com/enis19071?s=21"
         }
     },
     "projects": [
