@@ -125,7 +125,7 @@ const renderHomePage = async () => {
                     <div class="hero-image-wrapper">
                         <!-- Profil görseli -->
                         <img 
-                            src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop" 
+                            src="assets/eniskinay.png" 
                             alt="${personal.name} profil fotoğrafı" 
                             class="hero-image"
                         >
@@ -219,7 +219,7 @@ const renderAboutPage = async () => {
                     <!-- Sol taraf - Profil kartı -->
                     <div class="about-image-card">
                         <img 
-                            src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&h=600&fit=crop" 
+                            src="assets/eniskinay.png" 
                             alt="${personal.name}" 
                             class="about-image"
                         >
@@ -307,14 +307,6 @@ const renderAboutPage = async () => {
                                     </div>
                                 `).join('')}
                             </div>
-                        </div>
-                        
-                        <!-- CV İndir Butonu -->
-                        <div style="margin-top: 2rem;">
-                            <a href="#" class="btn btn-primary">
-                                <i class="fas fa-download"></i>
-                                CV İndir
-                            </a>
                         </div>
                     </div>
                 </div>

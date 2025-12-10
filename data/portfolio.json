@@ -9,14 +9,9 @@
         "birthYear": 1995,
         "education": [
             {
-                "degree": "Bilgisayar Mühendisliği Lisans",
-                "school": "İstanbul Teknik Üniversitesi",
-                "year": "2013 - 2017"
-            },
-            {
-                "degree": "Yazılım Mühendisliği Yüksek Lisans",
-                "school": "Boğaziçi Üniversitesi",
-                "year": "2018 - 2020"
+                "degree": "Bilişim Sistemleri Mühendisliği",
+                "school": "Sakarya Üniversitesi",
+                "year": "2023 - 2025"
             }
         ],
         "experience": [
