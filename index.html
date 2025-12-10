@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <!-- Meta etiketleri - Sayfa hakkında temel bilgiler -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kişisel Portfolio Sitesi - Web Geliştirici">
+    <meta name="author" content="Portfolio Sahibi">
+
+    <!-- Sayfa başlığı -->
+    <title>Portfolio | Web Geliştirici</title>
+
+    <!-- Google Fonts - Modern tipografi -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome - İkonlar için -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Ana stil dosyası - Harici CSS kullanımı (inline style yok) -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- ==================== HEADER BÖLÜMÜ ==================== -->
+    <!-- Sabit navigasyon çubuğu - Semantic HTML5 etiketleri -->
+    <header class="header" id="header">
+        <div class="container">
+            <!-- Logo bölümü -->
+            <a href="#home" class="logo" aria-label="Ana sayfa">
+                <span class="logo-text">Portfolio</span>
+            </a>
+
+            <!-- Ana navigasyon menüsü - Semantic nav etiketi -->
+            <nav class="nav" id="nav" role="navigation" aria-label="Ana menü">
+                <ul class="nav-list">
+                    <!-- Her menü öğesi hash-based routing kullanır -->
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link active" data-page="home">
+                            <i class="fas fa-home"></i>
+                            <span>Ana Sayfa</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link" data-page="about">
+                            <i class="fas fa-user"></i>
+                            <span>Hakkımda</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#projects" class="nav-link" data-page="projects">
+                            <i class="fas fa-briefcase"></i>
+                            <span>Projelerim</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#skills" class="nav-link" data-page="skills">
+                            <i class="fas fa-code"></i>
+                            <span>Yeteneklerim</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link" data-page="contact">
+                            <i class="fas fa-envelope"></i>
+                            <span>İletişim</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- Tema değiştirme butonu -->
+            <button class="theme-toggle" id="themeToggle" aria-label="Tema değiştir">
+                <i class="fas fa-moon"></i>
+            </button>
+
+            <!-- Hamburger menü butonu - Mobil cihazlar için -->
+            <button class="hamburger" id="hamburger" aria-label="Menüyü aç/kapat" aria-expanded="false">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- ==================== ANA İÇERİK ALANI ==================== -->
+    <!-- main etiketi - Sayfanın ana içeriğini barındırır -->
+    <!-- id="app" - JavaScript ile dinamik içerik bu alana yüklenir (SPA mantığı) -->
+    <main class="main" id="app" role="main">
+        <!-- JavaScript tarafından dinamik olarak doldurulacak -->
+        <!-- Sayfa yüklenirken gösterilecek yükleme animasyonu -->
+        <div class="loading">
+            <div class="loading-spinner"></div>
+            <p>Yükleniyor...</p>
+        </div>
+    </main>
+
+    <!-- ==================== FOOTER BÖLÜMÜ ==================== -->
+    <!-- footer etiketi - Semantic HTML5 -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <!-- Sosyal medya linkleri -->
+            <div class="social-links">
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub profili">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profili">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter profili">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </div>
+
+            <!-- Telif hakkı metni -->
+            <p class="copyright">
+                &copy; 2025 Portfolio. Tüm hakları saklıdır.
+            </p>
+        </div>
+    </footer>
+
+    <!-- Sayfa yukarı kaydırma butonu -->
+    <button class="scroll-top" id="scrollTop" aria-label="Sayfa başına dön">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- ==================== JAVASCRIPT DOSYALARI ==================== -->
+    <!-- Harici JavaScript dosyaları - Inline script kullanılmadı -->
+    <!-- type="module" - ES6 modül sistemi kullanımı -->
+    <script src="js/router.js"></script>
+    <script src="js/components.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

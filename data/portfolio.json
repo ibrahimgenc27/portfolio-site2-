@@ -1,0 +1,277 @@
+{
+    "personal": {
+        "name": "Mehmet Enis Kınay ",
+        "title": "Full-Stack Web Geliştirici",
+        "bio": "Merhaba! Ben Enis, tutkulu bir web geliştirici olarak modern ve kullanıcı dostu web uygulamaları geliştiriyorum. 5 yılı aşkın deneyimimle, front-end ve back-end teknolojilerinde uzmanlaştım.",
+        "location": "İstanbul, Türkiye",
+        "email": "enis.kinay@ogr.sakarya.edu.tr",
+        "phone": "+90 555 123 4567",
+        "birthYear": 1995,
+        "education": [
+            {
+                "degree": "Bilgisayar Mühendisliği Lisans",
+                "school": "İstanbul Teknik Üniversitesi",
+                "year": "2013 - 2017"
+            },
+            {
+                "degree": "Yazılım Mühendisliği Yüksek Lisans",
+                "school": "Boğaziçi Üniversitesi",
+                "year": "2018 - 2020"
+            }
+        ],
+        "experience": [
+            {
+                "position": "Senior Web Geliştirici",
+                "company": "Tech Solutions A.Ş.",
+                "period": "2021 - Günümüz",
+                "description": "Büyük ölçekli e-ticaret platformları geliştirme"
+            },
+            {
+                "position": "Front-End Geliştirici",
+                "company": "Digital Agency",
+                "period": "2018 - 2021",
+                "description": "React ve Vue.js ile modern web uygulamaları"
+            }
+        ],
+        "social": {
+            "github": "https://github.com/Enis",
+            "linkedin": "https://linkedin.com/in/Enis",
+            "twitter": "https://twitter.com/Enis"
+        }
+    },
+    "projects": [
+        {
+            "id": 1,
+            "title": "E-Ticaret Platformu",
+            "category": "web",
+            "description": "Modern ve ölçeklenebilir bir e-ticaret çözümü. React ve Node.js kullanılarak geliştirildi. Kullanıcı dostu arayüzü ve güçlü altyapısıyla öne çıkıyor.",
+            "technologies": [
+                "React",
+                "Node.js",
+                "MongoDB",
+                "Express",
+                "Redux"
+            ],
+            "image": "https://images.unsplash.com/photo-1557821552-17105176677c?w=600",
+            "demoUrl": "https://example.com/ecommerce",
+            "githubUrl": "https://github.com/example/ecommerce",
+            "featured": true
+        },
+        {
+            "id": 2,
+            "title": "Görev Yönetim Uygulaması",
+            "category": "web",
+            "description": "Ekipler için geliştirilmiş kapsamlı proje yönetim aracı. Gerçek zamanlı işbirliği ve sürükle-bırak özelliği ile verimlilik artışı sağlar.",
+            "technologies": [
+                "Vue.js",
+                "Firebase",
+                "Vuex",
+                "Tailwind CSS"
+            ],
+            "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600",
+            "demoUrl": "https://example.com/taskmanager",
+            "githubUrl": "https://github.com/example/taskmanager",
+            "featured": true
+        },
+        {
+            "id": 3,
+            "title": "Hava Durumu API",
+            "category": "api",
+            "description": "RESTful API ile hava durumu verilerini sunan servis. Dünya genelinde anlık ve haftalık tahminler sağlar.",
+            "technologies": [
+                "Node.js",
+                "Express",
+                "REST API",
+                "MongoDB"
+            ],
+            "image": "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=600",
+            "demoUrl": "https://example.com/weather-api",
+            "githubUrl": "https://github.com/example/weather-api",
+            "featured": false
+        },
+        {
+            "id": 4,
+            "title": "Blog Platformu",
+            "category": "web",
+            "description": "İçerik oluşturucular için gelişmiş blog platformu. Markdown desteği, kategori sistemi ve SEO optimizasyonu içerir.",
+            "technologies": [
+                "Next.js",
+                "PostgreSQL",
+                "Prisma",
+                "TypeScript"
+            ],
+            "image": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=600",
+            "demoUrl": "https://example.com/blog",
+            "githubUrl": "https://github.com/example/blog",
+            "featured": true
+        },
+        {
+            "id": 5,
+            "title": "Fitness Takip Uygulaması",
+            "category": "mobile",
+            "description": "Kullanıcıların egzersiz ve diyet programlarını takip etmelerini sağlayan mobil uygulama. Grafik ve istatistik özellikleri mevcut.",
+            "technologies": [
+                "React Native",
+                "Firebase",
+                "Redux",
+                "Chart.js"
+            ],
+            "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600",
+            "demoUrl": "https://example.com/fitness",
+            "githubUrl": "https://github.com/example/fitness",
+            "featured": false
+        },
+        {
+            "id": 6,
+            "title": "Sosyal Medya Dashboard",
+            "category": "web",
+            "description": "Birden fazla sosyal medya hesabını tek panelden yönetme imkanı sunan dashboard uygulaması.",
+            "technologies": [
+                "Angular",
+                "TypeScript",
+                "RxJS",
+                "Material UI"
+            ],
+            "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600",
+            "demoUrl": "https://example.com/dashboard",
+            "githubUrl": "https://github.com/example/dashboard",
+            "featured": false
+        }
+    ],
+    "skills": [
+        {
+            "category": "Frontend",
+            "icon": "fa-code",
+            "items": [
+                {
+                    "name": "HTML5",
+                    "level": 95
+                },
+                {
+                    "name": "CSS3/SASS",
+                    "level": 90
+                },
+                {
+                    "name": "JavaScript",
+                    "level": 92
+                },
+                {
+                    "name": "React",
+                    "level": 88
+                },
+                {
+                    "name": "Vue.js",
+                    "level": 85
+                },
+                {
+                    "name": "TypeScript",
+                    "level": 80
+                }
+            ]
+        },
+        {
+            "category": "Backend",
+            "icon": "fa-server",
+            "items": [
+                {
+                    "name": "Node.js",
+                    "level": 88
+                },
+                {
+                    "name": "Express",
+                    "level": 85
+                },
+                {
+                    "name": "Python",
+                    "level": 75
+                },
+                {
+                    "name": "PHP",
+                    "level": 70
+                }
+            ]
+        },
+        {
+            "category": "Veritabanı",
+            "icon": "fa-database",
+            "items": [
+                {
+                    "name": "MongoDB",
+                    "level": 85
+                },
+                {
+                    "name": "PostgreSQL",
+                    "level": 80
+                },
+                {
+                    "name": "MySQL",
+                    "level": 82
+                },
+                {
+                    "name": "Firebase",
+                    "level": 78
+                }
+            ]
+        },
+        {
+            "category": "Araçlar",
+            "icon": "fa-tools",
+            "items": [
+                {
+                    "name": "Git",
+                    "level": 90
+                },
+                {
+                    "name": "Docker",
+                    "level": 75
+                },
+                {
+                    "name": "Webpack",
+                    "level": 80
+                },
+                {
+                    "name": "VS Code",
+                    "level": 95
+                }
+            ]
+        }
+    ],
+    "testimonials": [
+        {
+            "id": 1,
+            "name": "İbrahim Genç",
+            "position": "CTO, Tech Solutions",
+            "text": "Ahmet ile çalışmak harika bir deneyim. Projeleri zamanında ve yüksek kalitede teslim ediyor.",
+            "image": "https://randomuser.me/api/portraits/men/1.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Faik Çelik",
+            "position": "Product Manager, Digital Agency",
+            "text": "Teknik becerileri ve iletişim kabiliyeti mükemmel. Kesinlikle tavsiye ederim.",
+            "image": "https://randomuser.me/api/portraits/women/1.jpg"
+        }
+    ],
+    "services": [
+        {
+            "icon": "fa-laptop-code",
+            "title": "Web Geliştirme",
+            "description": "Modern ve responsive web siteleri ve uygulamaları geliştiriyorum."
+        },
+        {
+            "icon": "fa-mobile-alt",
+            "title": "Mobil Uygulama",
+            "description": "React Native ile cross-platform mobil uygulamalar oluşturuyorum."
+        },
+        {
+            "icon": "fa-cogs",
+            "title": "API Geliştirme",
+            "description": "RESTful API'ler ve backend servisleri tasarlıyor ve geliştiriyorum."
+        },
+        {
+            "icon": "fa-paint-brush",
+            "title": "UI/UX Tasarım",
+            "description": "Kullanıcı odaklı, modern ve estetik arayüz tasarımları yapıyorum."
+        }
+    ]
+}
